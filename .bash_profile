@@ -17,9 +17,11 @@ alias ls='ls -G'
 alias la='ls -a'
 alias ll='ls -l'
 alias lla='ls -la'
+alias nn='nano'
+alias mm='make'
 
 alias stevensup='ping linuxlab.cs.stevens.edu'
-alias stevens='ssh nchoi@linuxlab.cs.stevens.edu'
+alias stevens='ssh nchoi@lab.srcit.stevens-tech.edu'
 
 function sit
 {
@@ -37,3 +39,7 @@ function sitx
 	A+=".srcit.stevens-tech.edu"
 	$A
 }
+
+export PATH=/usr/local/mysql/bin:$PATH
+export PATH=/usr/local/mysql/support-files:$PATH
+export PATH=$PATH:~/.nexustools
