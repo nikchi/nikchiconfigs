@@ -13,6 +13,7 @@ PS1="$Green\u$Color_Off@$BRed\h$Color_Off:$BPurple\w$Color_Off\$ "
 
 export CLICOLOR=1
 
+alias cl='clear'
 alias ls='ls -G'
 alias la='ls -a'
 alias ll='ls -l'
